@@ -1,0 +1,135 @@
+.home {
+
+    .features {
+        background-color: #f1fdf7;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0px;
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 130px;
+            width: 100%;
+
+            &:first-child {
+                flex: 2;
+            }
+
+            &:last-child {
+                flex: 3;
+            }
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+img {
+    height: 25px;
+}
+
+                h1 {
+                    font-weight: 500;
+                    width: 600px;
+                    margin-bottom: 20px;
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    width: 560px;
+                    color: gray;
+                    line-height: 23px;
+                }
+
+                video {
+                    width: 340px;
+                }
+            }
+        }
+    }
+
+    .features_2 {
+        display: flex;
+        justify-content: center;
+        background-color: #0B1041;
+        color: white;
+        padding: 50px 0px;
+
+        .container {
+display: flex;
+justify-content: center;
+gap: 100px;
+            
+            .item {
+    display: flex;            
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+width: 500px;
+margin-bottom: 5px;
+
+    i {
+        font-weight: 300;
+    }
+
+    span {
+        font-weight: 300;
+    }
+}
+
+p {
+    width: 580px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: rgb(231, 232, 238);
+}
+
+button {
+    margin-top: 17px;
+    cursor: pointer;
+    width: 200px;
+    color: white;
+    background-color: #1dbf73;
+    border: none;
+    outline: none;
+    height: 44px;
+    font-size: 15px;
+    transition: all 0.1s linear;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+                &:last-child{
+display: flex;
+justify-content: center;
+                    
+                    img {
+                        height: 300px;
+                    }
+                }
+            }
+}
+    }
+
+}

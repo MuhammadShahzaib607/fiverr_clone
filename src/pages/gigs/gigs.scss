@@ -1,0 +1,93 @@
+.gigs {
+    display: flex;
+    justify-content: center;
+     
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 120px;
+        gap: 15px;
+
+        .breadCrumbs {
+            color: #555;
+            font-size: 13px;
+        }
+        p {
+            color: #999;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left {
+display: flex;
+align-items: center;
+gap: 10px;
+color: #555;
+
+input {
+    padding: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+
+    &::placeholder {
+        color: gray;
+    }
+}
+
+button {
+    background-color: #1dbf73;
+    color: white;
+    padding: 6px 13px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+            }
+            .right {
+display: flex;
+align-items: center;
+gap: 10px;
+position: relative;
+
+.sortBy {
+    color: #555;
+}
+
+img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.rightMenu {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    border: 0.5px solid lightgray;
+    padding: 20px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    color: #555;
+}
+
+span {
+cursor: pointer;
+}
+            }
+
+        }
+        
+            .cards {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+    }
+}
