@@ -38,8 +38,8 @@ const currentUser = {
 <div className="logo">
 <Link className='link' to="/" >
 <span className='text'>fiverr</span>
-</Link>
     <span className='dot'>.</span>
+</Link>
 </div>
 
 <div className="links">

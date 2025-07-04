@@ -1,0 +1,57 @@
+.myGigs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container {
+width: 90%;
+
+        .title {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+
+            button {
+background-color: #1dbf73;
+border: none;
+outline: none;
+color: white;
+padding: 7px 10px;
+cursor: pointer;
+            }
+        }
+
+        table {
+            margin-top: 20px;
+width: 100%;
+
+tr {
+    height: 45px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+
+    sup {
+        font-size: 12px;
+    }
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.image {
+    height: 25px;
+    width: 50px;
+    object-fit: cover;
+}
+            img {
+                height: 20px;
+            }
+
+        }
+    }
+}
